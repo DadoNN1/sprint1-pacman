@@ -1,0 +1,68 @@
+body {
+    background-image: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-blend-mode: hard-light;
+    color: antiquewhite;
+    text-align: center;
+}
+
+h1 {
+    border: solid 3px rgb(27, 177, 102);
+    border-radius: 5px;
+    background-color: rgb(49, 59, 65);
+    color:rgb(27, 177, 102)
+    
+}
+
+table {
+    border: solid 5px rgb(41, 55, 57);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    position: static;
+    cursor: pointer;
+}
+
+.cell {
+    background-color: rgb(114, 137, 155);
+    padding: 5px;
+    border: solid 1px rgb(138, 132, 132);
+    height: 50px;
+    width: 50px;
+    color: black;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.easy {
+    border: solid 3px rgb(27, 177, 102);
+    border-radius: 20px;
+    background-color: rgb(49, 59, 65);
+    color: rgb(27, 177, 102);
+    cursor: pointer;
+}
+
+.medium {
+    border: solid 3px rgb(27, 177, 102);
+    border-radius: 20px;
+    background-color: rgb(49, 59, 65);
+    color: rgb(27, 177, 102);
+    cursor: pointer;
+}
+
+.hard {
+    border: solid 3px rgb(27, 177, 102);
+    border-radius: 20px;
+    background-color: rgb(49, 59, 65);
+    color: rgb(27, 177, 102);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    position: fixed; bottom:0; left:0; right:0;
+}
